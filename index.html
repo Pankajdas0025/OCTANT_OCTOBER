@@ -22,14 +22,24 @@ function closeNav() {
 	<header>
 		<div class="hlogo"><img src="Logo.png"></div>
 		<div class="nav">
-             <h2 id="menu">&#9776;</h2>
-			
+             <h2 id="menu" onclick="openNav() ">&#9776;</h2>
+            
+     
+
 			<a href="#Contact">Contact</a>	
 			<a href="#Services">Services</a>
 			<a href="#About">About</a>
 			<a href="#Home">Home</a>
 		</div>
 	</header>
+	<span id="menubar">
+            <h1 onclick="closeNav()" align="right" style="font-size: 75px;padding:0px  45px; alig">&times;</h1>
+		    <a href="#Contact">Contact</a>	
+			<a href="#Services">Services</a>
+			<a href="#About">About</a>
+			<a href="#Home">Home</a>
+
+		</span>
 	<!-- <main> -->
 	<div class="About" id="About">
 		<div class="Img"></div>
